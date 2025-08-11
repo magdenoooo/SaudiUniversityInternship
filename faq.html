@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأسئلة الشائعة - جامعة المملكة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-university"></i>
+                <span>جامعة المملكة</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">الرئيسية</a>
+                <a href="about.html" class="nav-link">عن البرنامج</a>
+                <a href="students.html" class="nav-link">للطلاب</a>
+                <a href="companies.html" class="nav-link">للشركات</a>
+                <a href="faq.html" class="nav-link active">الأسئلة الشائعة</a>
+                <a href="contact.html" class="nav-link">تواصل معنا</a>
+                
+                <button class="lang-switch" id="lang-switch">
+                    <i class="fas fa-globe"></i>
+                    <span>EN</span>
+                </button>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>الأسئلة الشائعة</h1>
+            <p>إجابات على الأسئلة الأكثر شيوعاً حول برنامج التدريب الميداني</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="faq-categories">
+                <button class="faq-category active" data-category="students">أسئلة الطلاب</button>
+                <button class="faq-category" data-category="companies">أسئلة الشركات</button>
+                <button class="faq-category" data-category="general">أسئلة عامة</button>
+            </div>
+            
+            <!-- Students FAQ -->
+            <div class="faq-content" id="students-faq">
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>ما هي شروط التسجيل في برنامج التدريب الميداني؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>يشترط للتسجيل في البرنامج:</p>
+                            <ul>
+                                <li>أن يكون الطالب في السنة الثالثة أو الرابعة</li>
+                                <li>الحد الأدنى للمعدل التراكمي 2.5 من 4.0</li>
+                                <li>إتمام المتطلبات الأساسية للتخصص</li>
+                                <li>عدم وجود مواد راسب فيها</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>كم تبلغ مدة التدريب؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>مدة التدريب الميداني 8 أسابيع (شهرين) بواقع 40 ساعة أسبوعياً كحد أدنى. يمكن تمديد فترة التدريب حسب اتفاق الطالب مع الشركة والجامعة.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>هل يحصل الطالب على مكافأة مالية أثناء التدريب؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>المكافأة المالية غير إلزامية وتختلف من شركة لأخرى. بعض الشركات تقدم مكافآت تشجيعية أو بدل مواصلات، بينما يركز البعض الآخر على التدريب والخبرة العملية.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>هل يمكنني اختيار شركة التدريب؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>نعم، يمكن للطالب اختيار الشركة من قائمة الشركات الشريكة المعتمدة. كما يمكن اقتراح شركات جديدة بشرط موافقة إدارة البرنامج عليها.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>ماذا لو لم أجد مكان تدريب؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>إدارة البرنامج تساعد الطلاب في إيجاد أماكن التدريب المناسبة. نوفر قوائم بالشركات المتاحة ونساعد في ترتيب المقابلات والتوفيق بين الطلاب والشركات.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Companies FAQ -->
+            <div class="faq-content" id="companies-faq" style="display: none;">
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>ما هي متطلبات انضمام الشركة للبرنامج؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>للانضمام كشركة شريكة يجب:</p>
+                            <ul>
+                                <li>أن تكون الشركة مرخصة ومسجلة رسمياً</li>
+                                <li>توفير بيئة عمل آمنة ومناسبة للتدريب</li>
+                                <li>تعيين مشرف متخصص لمتابعة المتدربين</li>
+                                <li>الالتزام بقوانين العمل السعودية</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>ما هي التزامات الشركة تجاه المتدربين؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>تلتزم الشركة بتوفير بيئة تدريب مناسبة، تعيين مشرف متخصص، تحديد مهام وأهداف واضحة، وتقييم أداء المتدرب بشكل دوري.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>هل هناك تكلفة على الشركة للمشاركة؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>لا، المشاركة في البرنامج مجانية بالكامل للشركات. نحن نسعى لبناء شراكات استراتيجية تفيد جميع الأطراف.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>كم عدد المتدربين الذين يمكن استقبالهم؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>يعتمد العدد على طبيعة الشركة وإمكانياتها. يمكن للشركات الصغيرة استقبال متدرب واحد أو اثنين، بينما يمكن للشركات الكبيرة استقبال أعداد أكبر.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- General FAQ -->
+            <div class="faq-content" id="general-faq" style="display: none;">
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>متى تبدأ فترات التسجيل؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>يفتح التسجيل ثلاث مرات في السنة: في بداية الفصل الدراسي الأول (سبتمبر)، والثاني (فبراير)، والصيفي (يونيو). يُعلن عن مواعيد التسجيل قبل شهر من بدايتها.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>هل يمكن إعادة التدريب في حالة عدم النجاح؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>نعم، في حالة عدم اجتياز التدريب يمكن للطالب إعادة التدريب في الفصل التالي بعد معالجة أسباب عدم النجاح مع المرشد الأكاديمي.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>كيف يتم تقييم الطالب المتدرب؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>التقييم يتم من خلال:</p>
+                            <ul>
+                                <li>تقييم المشرف في الشركة (60%)</li>
+                                <li>تقييم المشرف الأكاديمي (25%)</li>
+                                <li>تقرير الطالب النهائي (15%)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>هل يمكن التدريب خارج المملكة؟</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>يمكن التدريب خارج المملكة في حالات خاصة وبموافقة خاصة من إدارة الجامعة، وذلك للطلاب المتميزين ولبرامج تدريب استثنائية.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="contact-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>لم تجد إجابة لسؤالك؟</h2>
+                <p>تواصل معنا مباشرة وسنسعد بالإجابة على جميع استفساراتك</p>
+                <a href="contact.html" class="btn btn-primary">تواصل معنا</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-university"></i>
+                        <span>جامعة المملكة</span>
+                    </div>
+                    <p>نحو مستقبل مشرق للتعليم والتدريب في المملكة العربية السعودية</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="about.html">عن البرنامج</a></li>
+                        <li><a href="students.html">للطلاب</a></li>
+                        <li><a href="companies.html">للشركات</a></li>
+                        <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>تواصل معنا</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+966 11 123 4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@university.edu.sa</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>الرياض، المملكة العربية السعودية</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>تابعنا</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 جامعة المملكة. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/faq.js"></script>
+</body>
+</html>
